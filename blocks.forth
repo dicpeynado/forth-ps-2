@@ -35,8 +35,8 @@ $12 to ps2-shift-key                                           |15
 VGA.init400x300 VGA.setFont6x8                                 |0
 : ps2keyc ps2key lookup ;                                      |1
 : VGA.type s>z VGA.print ;                                     |2
-0 to echo                                                      |3
-' ps2keyc is key ' VGA.type is type                            |4
+' ps2keyc is key ' VGA.type is type                            |3
+                                                               |4
                                                                |5
                                                                |6
                                                                |7
